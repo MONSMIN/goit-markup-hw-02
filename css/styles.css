@@ -39,7 +39,7 @@ a {
 
 .logo {
     font-family: var(--secondary-font);
-    color: var(--primary-dark-color);
+    color: var(--primary-white-color);
     font-size: 18px;
     font-weight: 800;
     line-height: 21px;
@@ -92,16 +92,6 @@ a {
     background-color: var(--pressed-state-color);
 }
 
-.header-1 {
-  font-family: var(--primary-white-color);
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 60px;
-  letter-spacing: 0.02em;
-  text-align: center;
-  
-  }
-
 
 .header-2 {
 font-family: var(--primary-white-color);
@@ -124,3 +114,31 @@ text-align: center;
 
 }
 
+.hero {
+  background-color: var(--primary-dark-color);
+}
+
+.header-1 {
+  color: var(--primary-white-color);
+  text-align: center;
+  font-size: 56px;
+  line-height: 1.071;
+}
+
+.hero .button{
+  color: var(--primary-white-color);
+  background-color: var(--primary-brand-color);
+  border: none;
+}
+
+.hero .button:hover,
+.hero .button:active,
+.hero .button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--pressed-state-color);
+}
+
+.footer {
+  background-color: var(--primary-dark-color);
+  color: var(--light-mode-background-color)
+}
