@@ -94,12 +94,10 @@ a {
 
 
 .header-2 {
-font-family: var(--primary-white-color);
-font-size: 36px;
-font-weight: 700;
-line-height: 40px;
-letter-spacing: 0.02em;
-text-align: center;
+  color: var(--primary-dark-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
 
 }
 
