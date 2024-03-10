@@ -22,7 +22,7 @@ body {
   }
 
 
-ul, li {
+ul, ol {
     list-style: none;
 }
 
@@ -93,14 +93,10 @@ a {
 }
 
 
-
-
-
-
-
 .hero {
   background-color: var(--primary-dark-color);
 }
+
 
 .header-1 {
   color: var(--primary-white-color);
@@ -109,6 +105,7 @@ a {
   line-height: 1.071;
 }
 
+
 .header-2 {
   color: var(--primary-dark-color);
   font-size: 20px;
@@ -116,6 +113,7 @@ a {
   line-height: 1.2;
 
 }
+
 
 .header-3 {
   color: var(--primary-dark-color);
@@ -127,11 +125,13 @@ a {
 
 }
 
+
 .hero .button{
   color: var(--primary-white-color);
   background-color: var(--primary-brand-color);
   border: none;
 }
+
 
 .hero .button:hover,
 .hero .button:active,
@@ -139,6 +139,7 @@ a {
   color: var(--primary-white-color);
   background-color: var(--pressed-state-color);
 }
+
 
 .footer {
   background-color: var(--primary-dark-color);
