@@ -93,24 +93,10 @@ a {
 }
 
 
-.header-2 {
-  color: var(--primary-dark-color);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-
-}
 
 
-.header-3 {
-    color: var(--primary-dark-color);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: left;
 
-}
+
 
 .hero {
   background-color: var(--primary-dark-color);
@@ -121,6 +107,24 @@ a {
   text-align: center;
   font-size: 56px;
   line-height: 1.071;
+}
+
+.header-2 {
+  color: var(--primary-dark-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+
+}
+
+.header-3 {
+  color: var(--primary-dark-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: left;
+
 }
 
 .hero .button{
