@@ -36,22 +36,34 @@ a {
     color: currentColor;
   }
 
+.logo-header{
+  font-family: var(--secondary-font);
+  color: var(--primary-brand-color);
+  font-size: 18px;
+  line-height: 1.166;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  }
 
-.logo {
-    font-family: var(--secondary-font);
-    color: var(--primary-white-color);
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 21px;
-    letter-spacing: 0.03em;
-    text-align: left;
+
+.logo-footer {
+  font-family: var(--secondary-font);
+  color: var(--primary-brand-color);
+  font-size: 18px;
+  line-height: 1.166;
+  font-weight: 800;
+  letter-spacing: 0.03em;
 }
 
 
-.logo-part {
-    color: var(--primary-brand-color);
+.logo-part-header {
+    color: var(--primary-dark-color);
 }
 
+
+.logo-part-footer {
+  color: var(--light-mode-background-color);
+}
 
 .link:hover,
 .link:active,
@@ -76,6 +88,7 @@ a {
 .button {
     color: var(--primary-brand-color);
     background-color: var(--light-mode-background-color);
+    font-family: inherit;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -108,9 +121,12 @@ a {
 
 .header-2 {
   color: var(--primary-dark-color);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  
 
 }
 
